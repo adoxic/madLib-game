@@ -1,0 +1,12 @@
+#title{
+    color: blue;
+}
+
+#finalResult{
+    visibility: hidden;
+}
+
+html{
+    text-align: center;
+    background-color: azure;
+}
