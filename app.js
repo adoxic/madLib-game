@@ -4,14 +4,18 @@ const adjIn1 = document.getElementById('aInput1');
 const verbOut1 = document.getElementById('inputV');
 const nounOut1 = document.getElementById('inputN');
 const adjOut1 = document.getElementById('inputA');
+const finalMadlib = document.getElementById('finalResult');
 
 function makeMadlib() {
     verbOut1.textContent = verbIn1.value;
     nounOut1.textContent = nounIn1.value;
-    adjOut1.textContent = adjIn1.vlaue;
+    adjOut1.textContent = adjIn1.value;
+    if(finalMadlib.class('hidden')) {
+        finalMadlib.removeClass('hidden').addClass('visible');
+    } else {
+        finalMadlib.removeClass('visible').addClass('hidden');
+    }
 }
 
 
-function doThing() {
 
-}

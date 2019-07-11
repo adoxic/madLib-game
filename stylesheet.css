@@ -2,8 +2,8 @@
     color: blue;
 }
 
-#finalResult{
-    
+.hidden{
+    visibility: hidden;
 }
 
 html{
