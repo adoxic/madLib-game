@@ -3,7 +3,7 @@
 }
 
 .hidden{
-    
+    visibility: hidden;
 }
 
 html{

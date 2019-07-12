@@ -13,11 +13,8 @@ function makeMadlib() {
     verbOut1.textContent = verbIn1.value;
     nounOut1.textContent = nounIn1.value;
     adjOut1.textContent = adjIn1.value;
-    /* if(finalMadlib.className('hidden')) {
-        finalMadlib.className.remove('hidden');
-    } else {
-        console.log('something went wrong');
-    } */
+    finalMadlib.classList.remove('hidden');
+    
 }
 
 
